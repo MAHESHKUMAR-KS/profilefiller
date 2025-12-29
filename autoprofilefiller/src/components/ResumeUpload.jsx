@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Field = ({ label, value, textarea, autoFilled }) => {
-  // Convert value to string properly for display
+  
   let displayValue = '';
   if (value === null || value === undefined) {
     displayValue = '';
