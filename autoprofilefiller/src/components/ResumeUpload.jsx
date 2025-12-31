@@ -11,7 +11,7 @@ const Field = ({ label, value, textarea, autoFilled }) => {
       if (value.length === 0) {
         displayValue = '';
       } else if (typeof value[0] === 'object') {
-        // If array contains objects (like education, experience, projects), format them nicely
+        
         displayValue = value.map(item => {
           if (typeof item === 'object') {
             // Format object properties - try common fields for education, experience, projects
