@@ -14,7 +14,7 @@ const Field = ({ label, value, textarea, autoFilled }) => {
         
         displayValue = value.map(item => {
           if (typeof item === 'object') {
-            // Format object properties - try common fields for education, experience, projects
+            
             const parts = [];
             if (item.institution || item.school || item.university) {
               parts.push(item.institution || item.school || item.university);
