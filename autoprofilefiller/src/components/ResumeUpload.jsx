@@ -43,7 +43,7 @@ const Field = ({ label, value, textarea, autoFilled }) => {
           }
         }).join('\n\n');
       } else {
-        // If it's an array of primitives, join with newlines
+        
         displayValue = value.join('\n');
       }
     } else {
