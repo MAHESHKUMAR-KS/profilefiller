@@ -47,7 +47,7 @@ const Field = ({ label, value, textarea, autoFilled }) => {
         displayValue = value.join('\n');
       }
     } else {
-      // If it's an object, convert to string
+      
       displayValue = JSON.stringify(value);
     }
   } else {
