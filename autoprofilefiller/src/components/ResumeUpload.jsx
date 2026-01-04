@@ -51,7 +51,7 @@ const Field = ({ label, value, textarea, autoFilled }) => {
       displayValue = JSON.stringify(value);
     }
   } else {
-    // If it's a primitive, convert to string
+    
     displayValue = String(value);
   }
   
