@@ -38,7 +38,7 @@ function fallbackProfile(text) {
   };
 }
 
-/* ---------------- GEMINI SETUP (FLASH 2.5) ---------------- */
+/
 if (!process.env.GEMINI_API_KEY) {
   throw new Error("❌ GEMINI_API_KEY missing in .env");
 }

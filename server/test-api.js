@@ -1,7 +1,3 @@
-/**
- * Test script for the Resume Parser API
- * This script demonstrates how to use the /api/resume/parse endpoint
- */
 
 const FormData = require('form-data');
 const fs = require('fs');
