@@ -7,7 +7,7 @@ const Field = ({ label, value, textarea, autoFilled }) => {
     displayValue = '';
   } else if (typeof value === 'object') {
     if (Array.isArray(value)) {
-      // If it's an array, handle differently based on element type
+      
       if (value.length === 0) {
         displayValue = '';
       } else if (typeof value[0] === 'object') {
